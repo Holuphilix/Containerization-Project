@@ -364,7 +364,9 @@ kubectl logs nginx-deployment
 **Screenshot:** kubectl logs nginx-deployment-5c67b5d76-64rt2
 ![Port-forward](./Images/21.kubectl_logs.png)
 
-### **Step 10 : Stage and Commit the Template to Git**
+### **Step 10: Stage, Commit, and Push Your Project to GitHub**
+
+**Task 10.1: Stage and Commit the Template to Git**
 
 In this step, I will add the website files to the Git repository, configure my global Git settings, and make an initial commit with a descriptive message.
 
@@ -381,3 +383,28 @@ git config --global user.name "YourUsername"
 git config --global user.email "youremail@example.com"
 git commit -m "Initial commit for static web app"
 ```
+**Screenshot:** Git Config and Commit
+![Git Config](./Images/22.Git_git_config.png)
+
+**Task 10.2: Push the code to your Github repository**
+
+After initializing your Git repository and adding your e-commerce website template, the next step is to push your code to a remote repository on GitHub. This step is crucial for version control and collaboration.
+
+- Create a Remote Repository on GitHub: Log into your GitHub account and create a new repository named **Containerization-Project**. Leave the repository empty without initializing it with a README, .gitignore, or license.
+**Screenshot:** Create Git Repository Account
+![Create Git Repository account](./Images/22.Create_git_repos.png)
+
+- **Link Your Local Repository to GitHub:** In your terminal, within your project directory, add the remote repository URL to your local repository configuration.
+
+- **Push Your Code:** Upload Your Local Repository Content to GitHub Once you have linked your local repository to GitHub, use the following command to push your commits from your local main branch to the remote repository. This enables you to store your project in the cloud and share it with others.
+**Screenshot:** 
+![Git Push Origin](./Images/22.Git_push.png)
+
+**Commands:**
+```bash
+git remote add origin https://github.com/Holuphilix/Containerization-Project.git
+git branch -M main
+git push -u origin main
+```
+**Screenshot:** Git remote and push to origin maintain
+![Git remote and push to origin](./Images/22.Git_push_origin-m.png)
