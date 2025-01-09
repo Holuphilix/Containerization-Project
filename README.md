@@ -6,11 +6,16 @@ In today's fast-evolving tech landscape, containerization and container orchestr
 
 Through this hands-on experience, I aim to deepen my understanding of how container technology enhances portability and scalability while exploring the orchestration capabilities that simplify complex deployment workflows. This project is not just a technical exercise—it's a stepping stone for me as an aspiring DevOps engineer, equipping me with the practical skills and confidence to solve real-world challenges in IT and software development.
 
-Objectives
+#### Objectives
+
 •	Develop and containerize a simple web application.
+
 •	Create and manage Docker containers for the application.
+
 •	Deploy the containers to Kubernetes for orchestration.
+
 •	Utilize Kubernetes features such as Deployments and Services to manage the application.
+
 •	Gain hands-on experience in setting up a Kubernetes cluster using Kind (Kubernetes in Docker).
 
 ## Project Steps
